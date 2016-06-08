@@ -1,0 +1,127 @@
+/*
+Theme Name: eFolio
+Layout: Content-Sidebar
+*/
+
+.site-content {
+    padding-bottom: 4em;
+    background: #fff;
+}
+
+.content-area {
+	width: 100%;
+	float: left;
+	margin-right: -380px;
+	padding-right: 380px;
+}             
+
+.site-content .widget-area {
+	float: right;
+    width: 380px;
+    padding: 4rem;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+	position: relative;
+	z-index: 1;
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.page-header,
+.paging-navigation {
+    position: relative;
+	max-width: 780px;
+	max-width: 78rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 399px) {
+    .entry-header,
+    .page-header,
+    .entry-content,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation { padding: 0 2rem; }
+}
+
+.page-header,
+.paging-navigation {
+    padding-top: 1em;
+    padding-bottom: 1em;
+	margin-top: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+}
+
+.page-header {
+	background: #fff;
+    background: hsl(0,0%,100%);
+}
+
+.page-title {
+	font-size: 24px;
+	font-size: 2.4rem;	
+}
+
+.paging-navigation {
+    background: #313131;
+    background: hsl(0, 0%, 19%);
+}  
+
+.index-box {
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 1em 0 2em;
+    margin: 1em auto 2em;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+}                       
+
+@media screen and (min-width: 1280px) {
+	.site {
+		width: 1280px;
+		margin: 0 auto;
+	}	
+}
+
+@media screen and (max-width: 768px) {  
+	.content-area {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	
+	.site-content .widget-area {
+		float: none;
+		width: 100%;
+	}
+} 
+
+.entry-header .back {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    background: #313131;
+    background: hsl(0, 0%, 19%);
+} 
+
+.entry-header .back {
+	padding: 3px 1em;
+	margin: 0;
+	color: white;
+    color: hsl(0, 0%, 100%);
+}

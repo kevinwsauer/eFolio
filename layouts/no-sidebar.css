@@ -1,0 +1,76 @@
+/*
+Theme Name: efolio
+Layout: No sidebar
+*/
+
+/*
+* Theme Name: SOE-Faculty
+* Layout: No sidebar
+*/
+
+.page .site-content { 
+    background: #fff; 
+    background: hsl(0, 0%, 100%);
+}
+
+.site-footer {
+    clear: both;
+    width: 100%;
+}
+
+.entry-header,
+.page-header,
+.entry-content,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+    position: relative;
+    max-width: 1200px;
+    max-width: 120rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.page-header,
+.paging-navigation {
+    padding-top: 1em;
+    padding-bottom: 1em;
+	margin-top: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+}
+
+.page-header {
+	background: #fff;
+    background: hsl(0,0%,100%);
+}
+
+.paging-navigation {
+    background: #313131;
+    background: hsl(0, 0%, 19%);
+}                       
+
+@media screen and (min-width: 1280px) {
+	.site {
+		width: 1280px;
+		margin: 0 auto;
+	}	
+}
+
+.entry-header .back {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    background: #313131;
+    background: hsl(0, 0%, 19%);
+} 
+
+.entry-header .back {
+	padding: 3px 1em;
+	margin: 0;
+	color: white;
+    color: hsl(0, 0%, 100%);
+}
